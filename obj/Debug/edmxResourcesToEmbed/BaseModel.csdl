@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TechnoServiceModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="id_account" />
+    </Key>
+    <Property Name="id_account" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login_" Type="String" MaxLength="45" FixedLength="false" Unicode="true" />
+    <Property Name="Password_" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="id_role" Type="Int32" />
+    <NavigationProperty Name="Role_" Relationship="Self.FK__Account__id_role__4BAC3F29" FromRole="Account" ToRole="Role_" />
+  </EntityType>
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="client_id" />
+    </Key>
+    <Property Name="client_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="client_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Requests" Relationship="Self.FK__Requests__client__59FA5E80" FromRole="Clients" ToRole="Requests" />
+  </EntityType>
+  <EntityType Name="Equipment">
+    <Key>
+      <PropertyRef Name="equipment_id" />
+    </Key>
+    <Property Name="equipment_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="equipment_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Requests" Relationship="Self.FK__Requests__equipm__5812160E" FromRole="Equipment" ToRole="Requests" />
+  </EntityType>
+  <EntityType Name="FaultTypes">
+    <Key>
+      <PropertyRef Name="fault_type_id" />
+    </Key>
+    <Property Name="fault_type_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fault_type_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Requests" Relationship="Self.FK__Requests__fault___59063A47" FromRole="FaultTypes" ToRole="Requests" />
+  </EntityType>
+  <EntityType Name="Requests">
+    <Key>
+      <PropertyRef Name="request_id" />
+    </Key>
+    <Property Name="request_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="application_number" Type="Int32" />
+    <Property Name="request_date" Type="DateTime" Precision="0" />
+    <Property Name="equipment_id" Type="Int32" />
+    <Property Name="fault_type_id" Type="Int32" />
+    <Property Name="problem_description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="client_id" Type="Int32" />
+    <Property Name="status_id" Type="Int32" />
+    <Property Name="worker_id" Type="Int32" />
+    <NavigationProperty Name="Clients" Relationship="Self.FK__Requests__client__59FA5E80" FromRole="Requests" ToRole="Clients" />
+    <NavigationProperty Name="Equipment" Relationship="Self.FK__Requests__equipm__5812160E" FromRole="Requests" ToRole="Equipment" />
+    <NavigationProperty Name="FaultTypes" Relationship="Self.FK__Requests__fault___59063A47" FromRole="Requests" ToRole="FaultTypes" />
+    <NavigationProperty Name="RequestStatus" Relationship="Self.FK__Requests__status__5AEE82B9" FromRole="Requests" ToRole="RequestStatus" />
+    <NavigationProperty Name="Workers" Relationship="Self.FK__Requests__worker__5BE2A6F2" FromRole="Requests" ToRole="Workers" />
+  </EntityType>
+  <EntityType Name="RequestStatus">
+    <Key>
+      <PropertyRef Name="status_id" />
+    </Key>
+    <Property Name="status_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="status_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Requests" Relationship="Self.FK__Requests__status__5AEE82B9" FromRole="RequestStatus" ToRole="Requests" />
+  </EntityType>
+  <EntityType Name="Role_">
+    <Key>
+      <PropertyRef Name="id_role" />
+    </Key>
+    <Property Name="id_role" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name_role" Type="String" MaxLength="45" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Account" Relationship="Self.FK__Account__id_role__4BAC3F29" FromRole="Role_" ToRole="Account" />
+  </EntityType>
+  <EntityType Name="Workers">
+    <Key>
+      <PropertyRef Name="worker_id" />
+    </Key>
+    <Property Name="worker_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="worker_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Requests" Relationship="Self.FK__Requests__worker__5BE2A6F2" FromRole="Workers" ToRole="Requests" />
+  </EntityType>
+  <Association Name="FK__Account__id_role__4BAC3F29">
+    <End Role="Role_" Type="Self.Role_" Multiplicity="0..1" />
+    <End Role="Account" Type="Self.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role_">
+        <PropertyRef Name="id_role" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="id_role" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Requests__client__59FA5E80">
+    <End Role="Clients" Type="Self.Clients" Multiplicity="0..1" />
+    <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="client_id" />
+      </Principal>
+      <Dependent Role="Requests">
+        <PropertyRef Name="client_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Requests__equipm__5812160E">
+    <End Role="Equipment" Type="Self.Equipment" Multiplicity="0..1" />
+    <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipment">
+        <PropertyRef Name="equipment_id" />
+      </Principal>
+      <Dependent Role="Requests">
+        <PropertyRef Name="equipment_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Requests__fault___59063A47">
+    <End Role="FaultTypes" Type="Self.FaultTypes" Multiplicity="0..1" />
+    <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FaultTypes">
+        <PropertyRef Name="fault_type_id" />
+      </Principal>
+      <Dependent Role="Requests">
+        <PropertyRef Name="fault_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Requests__status__5AEE82B9">
+    <End Role="RequestStatus" Type="Self.RequestStatus" Multiplicity="0..1" />
+    <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RequestStatus">
+        <PropertyRef Name="status_id" />
+      </Principal>
+      <Dependent Role="Requests">
+        <PropertyRef Name="status_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Requests__worker__5BE2A6F2">
+    <End Role="Workers" Type="Self.Workers" Multiplicity="0..1" />
+    <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Workers">
+        <PropertyRef Name="worker_id" />
+      </Principal>
+      <Dependent Role="Requests">
+        <PropertyRef Name="worker_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TechnoServiceEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Account" EntityType="Self.Account" />
+    <EntitySet Name="Clients" EntityType="Self.Clients" />
+    <EntitySet Name="Equipment" EntityType="Self.Equipment" />
+    <EntitySet Name="FaultTypes" EntityType="Self.FaultTypes" />
+    <EntitySet Name="Requests" EntityType="Self.Requests" />
+    <EntitySet Name="RequestStatus" EntityType="Self.RequestStatus" />
+    <EntitySet Name="Role_" EntityType="Self.Role_" />
+    <EntitySet Name="Workers" EntityType="Self.Workers" />
+    <AssociationSet Name="FK__Account__id_role__4BAC3F29" Association="Self.FK__Account__id_role__4BAC3F29">
+      <End Role="Role_" EntitySet="Role_" />
+      <End Role="Account" EntitySet="Account" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Requests__client__59FA5E80" Association="Self.FK__Requests__client__59FA5E80">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="Requests" EntitySet="Requests" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Requests__equipm__5812160E" Association="Self.FK__Requests__equipm__5812160E">
+      <End Role="Equipment" EntitySet="Equipment" />
+      <End Role="Requests" EntitySet="Requests" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Requests__fault___59063A47" Association="Self.FK__Requests__fault___59063A47">
+      <End Role="FaultTypes" EntitySet="FaultTypes" />
+      <End Role="Requests" EntitySet="Requests" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Requests__status__5AEE82B9" Association="Self.FK__Requests__status__5AEE82B9">
+      <End Role="RequestStatus" EntitySet="RequestStatus" />
+      <End Role="Requests" EntitySet="Requests" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Requests__worker__5BE2A6F2" Association="Self.FK__Requests__worker__5BE2A6F2">
+      <End Role="Workers" EntitySet="Workers" />
+      <End Role="Requests" EntitySet="Requests" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

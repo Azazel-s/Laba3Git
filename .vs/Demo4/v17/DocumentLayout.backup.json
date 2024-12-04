@@ -1,0 +1,339 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Demo4\\Demo4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|f:\\demo4\\demo4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|f:\\demo4\\demo4\\refreshwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:refreshwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|F:\\Demo4\\Demo4\\addeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:addeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|f:\\demo4\\demo4\\authorizationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:authorizationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|F:\\Demo4\\Demo4\\role_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:role_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|F:\\Demo4\\Demo4\\basemodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:basemodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|F:\\Demo4\\Demo4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|F:\\Demo4\\Demo4\\refreshwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:refreshwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|F:\\Demo4\\Demo4\\requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|f:\\demo4\\demo4\\requeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:requeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|f:\\demo4\\demo4\\basemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:basemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|F:\\Demo4\\Demo4\\workers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:workers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|F:\\Demo4\\Demo4\\faulttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:faulttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|F:\\Demo4\\Demo4\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|F:\\Demo4\\Demo4\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|F:\\Demo4\\Demo4\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|F:\\Demo4\\Demo4\\authorizationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:authorizationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|F:\\Demo4\\Demo4\\addeditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:addeditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|F:\\Demo4\\Demo4\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723214CF-E46E-41CE-8713-DBA767EA90C8}|Demo4.csproj|solutionrelative:account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "F:\\Demo4\\Demo4\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T21:58:39.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RefreshWindow.xaml",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\RefreshWindow.xaml",
+              "RelativeDocumentMoniker": "RefreshWindow.xaml",
+              "ToolTip": "F:\\Demo4\\Demo4\\RefreshWindow.xaml",
+              "RelativeToolTip": "RefreshWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T21:56:00.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorizationWindow.xaml",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\AuthorizationWindow.xaml",
+              "RelativeDocumentMoniker": "AuthorizationWindow.xaml",
+              "ToolTip": "F:\\Demo4\\Demo4\\AuthorizationWindow.xaml",
+              "RelativeToolTip": "AuthorizationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T21:55:54.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RequestStatus.cs",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\RequestStatus.cs",
+              "RelativeDocumentMoniker": "RequestStatus.cs",
+              "ToolTip": "F:\\Demo4\\Demo4\\RequestStatus.cs",
+              "RelativeToolTip": "RequestStatus.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:44:41.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Requests.cs",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\Requests.cs",
+              "RelativeDocumentMoniker": "Requests.cs",
+              "ToolTip": "F:\\Demo4\\Demo4\\Requests.cs",
+              "RelativeToolTip": "Requests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:44:31.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RefreshWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\RefreshWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RefreshWindow.xaml.cs",
+              "ToolTip": "F:\\Demo4\\Demo4\\RefreshWindow.xaml.cs",
+              "RelativeToolTip": "RefreshWindow.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:44:21.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "F:\\Demo4\\Demo4\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:40:58.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddEditWindow.xaml",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\AddEditWindow.xaml",
+              "RelativeDocumentMoniker": "AddEditWindow.xaml",
+              "ToolTip": "F:\\Demo4\\Demo4\\AddEditWindow.xaml",
+              "RelativeToolTip": "AddEditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-28T06:37:13.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseModel.edmx [Diagram1]",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\BaseModel.edmx",
+              "RelativeDocumentMoniker": "BaseModel.edmx",
+              "ToolTip": "F:\\Demo4\\Demo4\\BaseModel.edmx [Diagram1]*",
+              "RelativeToolTip": "BaseModel.edmx [Diagram1]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-12-03T21:33:48.911Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Clients.cs",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\Clients.cs",
+              "RelativeDocumentMoniker": "Clients.cs",
+              "ToolTip": "F:\\Demo4\\Demo4\\Clients.cs",
+              "RelativeToolTip": "Clients.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:40:22.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Authorization.cs",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\Authorization.cs",
+              "RelativeDocumentMoniker": "Authorization.cs",
+              "ToolTip": "F:\\Demo4\\Demo4\\Authorization.cs",
+              "RelativeToolTip": "Authorization.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:39:07.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthorizationWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\AuthorizationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AuthorizationWindow.xaml.cs",
+              "ToolTip": "F:\\Demo4\\Demo4\\AuthorizationWindow.xaml.cs",
+              "RelativeToolTip": "AuthorizationWindow.xaml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-02-28T06:39:30.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Account.cs",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\Account.cs",
+              "RelativeDocumentMoniker": "Account.cs",
+              "ToolTip": "F:\\Demo4\\Demo4\\Account.cs",
+              "RelativeToolTip": "Account.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-02-28T06:38:51.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddEditWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\AddEditWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AddEditWindow.xaml.cs",
+              "ToolTip": "F:\\Demo4\\Demo4\\AddEditWindow.xaml.cs",
+              "RelativeToolTip": "AddEditWindow.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAFsAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-02-28T06:37:13.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseModel.Context.cs",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\BaseModel.Context.cs",
+              "RelativeDocumentMoniker": "BaseModel.Context.cs",
+              "ToolTip": "F:\\Demo4\\Demo4\\BaseModel.Context.cs",
+              "RelativeToolTip": "BaseModel.Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:39:49.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Role_.cs",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\Role_.cs",
+              "RelativeDocumentMoniker": "Role_.cs",
+              "ToolTip": "F:\\Demo4\\Demo4\\Role_.cs",
+              "RelativeToolTip": "Role_.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:44:46.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Workers.cs",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\Workers.cs",
+              "RelativeDocumentMoniker": "Workers.cs",
+              "ToolTip": "F:\\Demo4\\Demo4\\Workers.cs",
+              "RelativeToolTip": "Workers.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:44:56.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FaultTypes.cs",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\FaultTypes.cs",
+              "RelativeDocumentMoniker": "FaultTypes.cs",
+              "ToolTip": "F:\\Demo4\\Demo4\\FaultTypes.cs",
+              "RelativeToolTip": "FaultTypes.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:40:50.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Equipment.cs",
+              "DocumentMoniker": "F:\\Demo4\\Demo4\\Equipment.cs",
+              "RelativeDocumentMoniker": "Equipment.cs",
+              "ToolTip": "F:\\Demo4\\Demo4\\Equipment.cs",
+              "RelativeToolTip": "Equipment.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:40:40.617Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
